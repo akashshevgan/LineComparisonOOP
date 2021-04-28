@@ -19,9 +19,19 @@ public class LinecomparisonOOP {
 
 	}
 	
+	public static void lineComparison () {
+
+		if (lengthOfline() == lengthOfline())
+			System.out.println ("Equal");
+		else
+			System.out.println ("Not Equal");
+
+	}
+	
 	public static void main (String[] args) {
 
 		System.out.println ("Welcome to Line Comparison using object oriented programing");
 		lengthOfline();
+		lineComparison();
 	}
 }
