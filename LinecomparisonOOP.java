@@ -6,7 +6,7 @@ public class LinecomparisonOOP {
 	
 	static Scanner sc = new Scanner (System.in);
 
-	public static double line() {
+	public static double lengthOfline() {
 
 		System.out.println ("Enter the Values of line =");
 		double x1 = sc.nextDouble ();
@@ -22,6 +22,6 @@ public class LinecomparisonOOP {
 	public static void main (String[] args) {
 
 		System.out.println ("Welcome to Line Comparison using object oriented programing");
-		line();
+		lengthOfline();
 	}
 }
